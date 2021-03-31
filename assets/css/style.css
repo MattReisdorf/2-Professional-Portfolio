@@ -1,0 +1,235 @@
+* {
+    margin:0;
+    background-color: rgb(228,228,231);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #17183b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: sticky;
+    top: 0; 
+}
+
+.name {
+    background-color:#17183b;
+    padding: 30px, 30px, 30px, 0px;
+}
+
+.name h1 {
+    background-color: #17183b;
+    color: #a2a2a2;
+    font-size: 2.5em;
+    padding-left: 5%;
+}
+
+.navbar {
+    background-color: #17183b;
+}
+
+.navbar ul{
+    background-color:#17183b;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 3%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    background-color: #17183b;
+    float: left;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-top: 8px;
+    font-size: 1.5em;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color:#17183b;
+    color: white;
+}
+
+.main-text-area {
+    display: grid;
+    width: auto;
+    grid-template-columns: 20% 80%;
+}
+
+.break {
+    background-image: url("images/18654.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.about-me-title {
+    background-color: #17183b;
+    padding: 8%;
+}
+
+.projects-title .big-title{
+    padding-top: 80%;
+    background-color:#17183b;
+}
+
+.about-me-title .big-title {
+    padding-top: 60%;
+    background-color:#17183b;
+}
+
+.big-title h1 {
+    background-color:#17183b;
+    text-align: center;
+    color: white;
+}
+
+.about-me-text {
+    padding: 2%;
+    line-height: 1.2;
+}
+
+.about-me-text {
+    justify-content: center;
+    margin: 4%;
+}
+
+.projects-title{
+    background-color: #17183b;
+    padding: 8%;
+}
+
+.line-break {
+    border-right: 2px solid white;
+    height: 100%;
+    background-color: #17183b;
+}
+
+.projects-content {
+    padding: 12%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 6%;
+}
+
+
+.img-card {
+    padding-bottom:10%;
+    text-align: center;
+    font-size: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.img-card a {
+    color: #17183b;
+    padding-top: 1%;
+    text-decoration: none;
+}
+
+.img-card:hover, .img-card:hover img{
+    transform: scale(1.05);
+}
+
+.chess {
+    width: 100%;
+    height: 100%;
+}
+
+.reddit {
+    width: 100%;
+    height: 100%;
+}
+
+.crypto {
+    width: 100%;
+    height: 100%;    
+}
+
+footer{
+    background-color: rgb(205,206,208);
+}
+
+footer ul {
+    background-color: rgb(205,206,208);
+    list-style-type: none;
+    margin: 0;
+    margin-left: 3%;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li {
+    text-decoration: none;
+    background-color: rgb(205,206,208);
+    float: left;
+    margin: 5%;
+    font-size:1.5em;
+}
+
+footer ul li a {
+    background-color:rgb(205,206,208);
+    color: #17183b;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .main-text-area {
+        display: grid;
+        grid-template-columns: 100%;
+        width: auto;
+    }
+
+    .about-me-title .big-title, .projects-title .big-title{
+        padding:0%;
+    }
+
+    .big-title{
+        padding:0%;
+        border: none;
+    }
+
+    .big-title h1 {
+        margin: 0%;
+        font-size: .7em;
+    }
+
+
+    .name h1 {
+        font-size: 2em;
+    }
+
+    .break {
+        padding: 20px;
+    }
+
+    .navbar ul li {
+        font-size: 1em;
+    }
+
+    .projects-content {
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 414px) {
+    .name h1{
+        font-size: 1.5em;
+    }
+
+    .break {
+        padding: 15px;
+    }
+
+    .navbar ul li {
+        font-size: 0.8em;
+    }
+}
