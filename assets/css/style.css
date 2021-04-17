@@ -57,7 +57,7 @@ nav {
 .contact-text {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: auto;
 }
 
@@ -86,6 +86,9 @@ embed {
 
 .contact-list {
     list-style-type: none;
+    background-color: #17183b;
+    color: white;
+    font-size: 10px;
 }
 
 
@@ -122,6 +125,11 @@ embed {
     }
 
     .resume-text {
+        margin-top: 0px;
+        padding-top: 2%;
+    }
+    
+    .contact-text {
         margin-top: 0px;
         padding-top: 2%;
     }
