@@ -12,7 +12,8 @@ nav {
 
 .droptop {
     z-index: 1;
-    position: relative;
+    position: absolute;
+    top:5px;
 }
 .picture-div { 
     background-color: rgb(205,206,208);
@@ -27,17 +28,14 @@ nav {
     border-radius: 10px;
 }
 
-#about-me-text {
-    margin-top: 28%;
-}
-
 #bio {
     font-size: 12px;
 }
 
-#about-me-text {
+.title-text {
     font-size: 20px;
     font-weight: bold;
+    margin-top: 28%;
 }
 
 .span-div {
@@ -45,6 +43,12 @@ nav {
     padding-right: 10px;
     padding-top: 5%;
     padding-bottom: auto;
+}
+
+.btn {
+    background-color: rgb(205,206,208);
+    color: black;
+    border: rgb(205,206,208);
 }
 
 @media screen and (max-width: 947px) and (min-width: 768px) {
@@ -69,7 +73,7 @@ nav {
         display: none;
     }
     
-    #about-me-text {
+    .title-text {
         margin-top: 0px;
         padding-top: 2%;
     }
