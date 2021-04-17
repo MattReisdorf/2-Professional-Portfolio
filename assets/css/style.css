@@ -46,6 +46,13 @@ nav {
     margin-bottom:auto;
 }
 
+.resume-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
 .span-div {
     padding-left: 10px;
     padding-right: 10px;
@@ -57,6 +64,11 @@ nav {
     background-color: rgb(205,206,208);
     color: black;
     border: rgb(205,206,208);
+}
+
+embed {
+    width: 100%;
+    height:100%;
 }
 
 @media screen and (max-width: 947px) and (min-width: 768px) {
@@ -87,6 +99,11 @@ nav {
     }
 
     .projects-text {
+        margin-top: 0px;
+        padding-top: 2%;
+    }
+
+    .resume-text {
         margin-top: 0px;
         padding-top: 2%;
     }
