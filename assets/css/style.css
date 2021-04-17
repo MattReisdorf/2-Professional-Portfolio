@@ -32,10 +32,18 @@ nav {
     font-size: 12px;
 }
 
-.title-text {
+.about-text {
     font-size: 20px;
     font-weight: bold;
     margin-top: 28%;
+    margin-bottom:auto;
+}
+
+.projects-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40%;
+    margin-bottom:auto;
 }
 
 .span-div {
@@ -73,7 +81,12 @@ nav {
         display: none;
     }
     
-    .title-text {
+    .about-text {
+        margin-top: 0px;
+        padding-top: 2%;
+    }
+
+    .projects-text {
         margin-top: 0px;
         padding-top: 2%;
     }
